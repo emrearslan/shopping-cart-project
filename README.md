@@ -6,6 +6,12 @@
 # Shopping Cart Project
 Implement simple an e-commerce shopping cart.
 
+## Quick Start
+```
+/initDefaultData/initFullData and /shoppingCart/print
+```
+InitDefaultDataController has `/initDefaultData/onlyParamData` and `/initDefaultData/initFullData`. `onlyParamData` creates the basic parameters such as category, product, campaign, coupon. `initFullData` also creates shopping cart operations. You can view the latest status with `/shoppingCart/print`.
+
 ## Running
 To run project:
 ```
