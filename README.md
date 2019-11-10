@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/emrearslan/shopping-cart-project.svg?branch=development)](https://travis-ci.org/emrearslan/shopping-cart-project)
+[![Build Status](https://travis-ci.org/emrearslan/shopping-cart-project.svg?branch=master)](https://travis-ci.org/emrearslan/shopping-cart-project)
 [![codecov](https://codecov.io/gh/emrearslan/shopping-cart-project/branch/master/graph/badge.svg)](https://codecov.io/gh/emrearslan/shopping-cart-project)
 [![GitHub license](https://img.shields.io/github/license/emrearslan/shopping-cart-project.svg)](https://github.com/emrearslan/shopping-cart-project/blob/master/LICENSE)
 ![Version 0.0.1](https://img.shields.io/badge/version-0.0.1-yellow.svg)
