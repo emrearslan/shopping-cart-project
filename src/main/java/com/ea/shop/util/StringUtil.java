@@ -6,7 +6,6 @@ public class StringUtil {
 
     public static final String DEFAULT_LOCALE = "tr";
     public static final String PERCENT = "%";
-    public static final String SLASH = "/";
 
     public static boolean isEmpty(String str) {
         return (str == null || str.trim().length() == 0);
@@ -22,7 +21,7 @@ public class StringUtil {
     }
 
     public static String likeWithoutLowerCase(String str) {
-        return (str == null) ? null : (PERCENT + str + SLASH);
+        return (str == null) ? null : (PERCENT + str + PERCENT);
     }
 
 }
