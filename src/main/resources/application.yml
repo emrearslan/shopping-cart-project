@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: shopping-cart-project
+  h2:
+    console:
+      path: /h2
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:test
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create # create | create-drop | validate | update
+
+server:
+  port: 9070
+  servlet:
+    contextPath: /shopping-cart-project
+
+logging:
+  level:
+    org.springframework: INFO
+    com.ea: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    #org.hibernate.type: TRACE
+
